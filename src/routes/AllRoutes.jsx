@@ -1,10 +1,11 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
+import LandingPage from '../Components/LandingPage'
 
 const AllRoutes = () => {
   return (
    <Routes>
-    <Route path='/' element={}/>
+    <Route path='/' element={<LandingPage />} />
    </Routes>
   )
 }
