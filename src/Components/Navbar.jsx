@@ -1,8 +1,13 @@
+import { Box } from '@chakra-ui/react'
 import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <>
+    <Box border={"1px solid red"}>
+      Navbar
+    </Box>
+    </>
   )
 }
 

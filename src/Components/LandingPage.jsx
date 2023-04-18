@@ -1,14 +1,14 @@
 import { Box } from '@chakra-ui/react'
 import React from 'react'
 
-const Footer = () => {
+const LandingPage = () => {
   return (
     <>
-    <Box border={"1px solid blue"}>
-      Footer
+    <Box border={"1px solid black"}>
+      Home
     </Box>
     </>
   )
 }
 
-export default Footer
+export default LandingPage
